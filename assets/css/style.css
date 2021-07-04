@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+section {
+    margin: 0;
+    height: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* ================================================================ 
+ * First section
+ */
+section:first-of-type {
+    margin: 0;
+    height: 70%;
+    background: #333;
+    color: white;
+}
+
+/* ---------------------------------------------------------------- 
+ * super duper
+ */
+section:first-of-type p {
+    margin-top: 0;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-bottom: 10%;
+    letter-spacing: 7px;
+}
+
+/* ---------------------------------------------------------------- 
+ * creative & fresh... container
+ */
+section:first-of-type > div {
+    width: 400px; 
+    height: 300px;
+    margin: 0 auto; 
+    text-align: center;
+    border-radius: 10px;
+    background-color: #8507e1;
+    background-image: linear-gradient(45deg, #8507e1 0%, #3dc8d5 100%);
+}
+section:first-of-type > div:hover {
+    background-image: linear-gradient(225deg, #8507e1 0%, #3dc8d5 100%);
+}
+
+/* ---------------------------------------------------------------- 
+ * Creative & Fresh text
+ */
+section:first-of-type > div div:first-child {
+    font-family: 'Gilda Display', serif;
+    font-size: 88px;
+    line-height: 1;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/* ---------------------------------------------------------------- 
+ * We love to craft beautiful ...
+ */
+section:first-of-type > div div:last-child {
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(255,255,255,.5);
+}
+
+/* ---------------------------------------------------------------- 
+ * navigation at bottom right
+ */
+section:first-of-type nav {
+    padding-top: 10%;
+    padding-bottom: 2%;
+    padding-right: 3%;
+}
+section:first-of-type nav ul {
+    list-style: none;
+    text-align: right;
+    line-height: 1.5;
+}
+section:first-of-type nav li a {
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+}
+section:first-of-type nav li:first-child a {
+    text-transform: uppercase;
+}
+
+/* ================================================================ 
+ * Section 2; some Text
+ *
+ * Text Projects (Big, uppercase, semi-transparent)
+ * somd smaller text
+ */
+ section:nth-of-type(2) h1 {
+    margin-bottom: -20px;
+    font-weight: 900;
+    font-size: 160px;
+    text-transform: uppercase;
+    color: rgba(204, 204, 204, 0.4);
+}
+section:nth-of-type(2) div {
+    color: #333;
+    font-family: 'Gilda Display', serif;
+    font-size: 64px;
+    text-shadow: 2px 0px;
+}
+section:nth-of-type(2) p {
+    padding-top: 3%;
+    width: 60%;
+    font-weight: 500;
+    padding-bottom: 25%;
+}
+
+/* ================================================================ 
+ * Section 3: sample projects
+ */
+figure {
+    padding: 10% 0;
+}
+
+figure img {
+    width: 80%; 
+    margin: auto; /* center horizontally */
+    border-radius:15px;
+}
+
+figcaption h2 {
+    font-family: 'Gilda Display', serif;
+    font-size: 66px;
+    margin-bottom: 0;
+}
+
+
+figcaption h4 {
+    text-transform: uppercase;
+    color: #999;
+}
+
+/* ================================================================ */
+
